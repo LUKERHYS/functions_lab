@@ -21,3 +21,7 @@ end
 def length_of_string(string)
   return string.length()
 end
+
+def join_string(input_1, input_2)
+  return input_1 + input_2
+end
