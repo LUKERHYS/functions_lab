@@ -30,7 +30,7 @@ def add_string_as_number(str_1, str_2)
   return str_1.to_i() + str_2.to_i()
 end
 
-require 'time'
+require ('time')
 def number_to_full_month_name(chosen_month)
   #require 'time' commented out for the use of the global require
   return Date::MONTHNAMES[chosen_month]
@@ -47,7 +47,6 @@ end
 def volume_of_cube(side_length)
   return side_length.to_i() ** 3
 end
-
 
 def volume_of_sphere(radius)
   volume = Math::PI * (radius ** 3) * 4.0 / 3.0
